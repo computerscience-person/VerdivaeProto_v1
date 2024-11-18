@@ -5,7 +5,17 @@ export default {
     "./src/**/*.{html,js,ts,jsx,tsx}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        kiwi: "#88ea63",
+        teal: "#07897d",
+        topaz: "#0abfac",
+        black: "#000000",
+      },
+      fontFamily: {
+        'base': ['Inter', 'ui-sans-serif']
+      }
+    },
   },
   plugins: [],
 }
