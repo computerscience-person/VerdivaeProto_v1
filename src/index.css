@@ -3,17 +3,16 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: Inter;
-  font-style: normal;
-  src:
+  font-family: "Inter";
+  src: 
     local("Inter"),
-    url("./src/assets/fonts/Inter/InterVariable.ttf");
+    url("./assets/fonts/Inter/InterVariable.ttf");
 }
 
 @font-face {
-  font-family: Inter;
+  font-family: "Inter";
   font-style: italic;
-  src:
+  src: 
     local("Inter"),
-    url("./src/assets/fonts/Inter/InterVariable-Italic.ttf");
+    url("./assets/fonts/Inter/InterVariable-Italic.ttf");
 }
